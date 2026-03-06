@@ -1,0 +1,17 @@
+.logo{
+    width: 160px;
+}
+
+nav{
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%,
+    rgba(248,193,19,1));
+}
+
+#navbarNav ul li a{
+    color: #fff;
+    font-weight: bold;
+}
+
+#navbarNav ul li a:hover{
+    color:#000
+}
