@@ -162,19 +162,19 @@
           <form action="">
             <div class="col-md-12">
               <label class="form-label">E-mail:</label>
-              <input type="email" class="form-control" name="email" />
+              <input type="email" class="form-control" name="email" required />
             </div>
             <div class="col-md-12">
               <label class="form-label">CEP:</label>
-              <input type="text" class="form-control" name="cep" id="cep" onblur="pesquisacep(this.value);" />
+              <input type="text" class="form-control" name="cep" id="cep" onblur="pesquisacep(this.value);" required/>
             </div>
             <div class="col-md-12">
               <label class="form-label">Rua:</label>
-              <input type="text" class="form-control" name="rua" id="rua" />
+              <input type="text" class="form-control" name="rua" id="rua" disabled/>
             </div>
             <div class="col-md-12">
               <label class="form-label">Bairro:</label>
-              <input type="text" class="form-control" name="bairro" id="bairro" />
+              <input type="text" class="form-control" name="bairro" id="bairro" disabled/>
             </div>
             <div class="col-md-12">
               <label class="form-label">Fale Conosco:</label>
@@ -226,6 +226,14 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
     <script src="js.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('#cep').mask('00000-000');
+      });
+    </script>
   </body>
 </html>
