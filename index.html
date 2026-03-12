@@ -158,7 +158,7 @@
             </div>
           </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid col-md-6">
           <form action="">
             <div class="col-md-12">
               <label class="form-label">E-mail:</label>
@@ -166,15 +166,15 @@
             </div>
             <div class="col-md-12">
               <label class="form-label">CEP:</label>
-              <input type="text" class="form-control" name="cep" />
+              <input type="text" class="form-control" name="cep" id="cep" onblur="pesquisacep(this.value);" />
             </div>
             <div class="col-md-12">
               <label class="form-label">Rua:</label>
-              <input type="text" class="form-control" name="rua" />
+              <input type="text" class="form-control" name="rua" id="rua" />
             </div>
             <div class="col-md-12">
               <label class="form-label">Bairro:</label>
-              <input type="text" class="form-control" name="bairro" />
+              <input type="text" class="form-control" name="bairro" id="bairro" />
             </div>
             <div class="col-md-12">
               <label class="form-label">Fale Conosco:</label>
@@ -226,5 +226,6 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+    <script src="js.js"></script>
   </body>
 </html>
