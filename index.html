@@ -10,7 +10,13 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/pg.css" />
   </head>
   <body>
@@ -54,16 +60,32 @@
 
     <main>
       <section class="sectionCarrosel">
-        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div
+          id="carouselExample"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
           <div class="carousel-inner">
-            <div class="carousel-item active"  data-bs-interval="1000">
-              <img src="images/banner/img1.png" class="d-block w-100 imgBanner" alt="..." />
+            <div class="carousel-item active" data-bs-interval="1000">
+              <img
+                src="images/banner/img1.png"
+                class="d-block w-100 imgBanner"
+                alt="..."
+              />
             </div>
-            <div class="carousel-item"  data-bs-interval="2000">
-              <img src="images/banner/img2.png" class="d-block w-100 imgBanner" alt="..." />
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="images/banner/img2.png"
+                class="d-block w-100 imgBanner"
+                alt="..."
+              />
             </div>
-            <div class="carousel-item"  data-bs-interval="1000">
-              <img src="images/banner/img3.png" class="d-block w-100 imgBanner" alt="..." />
+            <div class="carousel-item" data-bs-interval="1000">
+              <img
+                src="images/banner/img3.png"
+                class="d-block w-100 imgBanner"
+                alt="..."
+              />
             </div>
           </div>
           <button
@@ -97,22 +119,31 @@
 
           <div class="row">
             <div class="col-sm-4 text-center align-middle destaque-texto">
-              <i class="fa-solid fa-at icones"></i><br>
+              <i class="fa-solid fa-at icones"></i><br />
               E-MAIL CORPORATIVO
               <p class="destaque align-middle text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, eveniet tenetur quod voluptates minima natus, commodi exercitationem reiciendis nam expedita et autem magni laborum obcaecati quasi vitae ad similique dolores.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
+                eveniet tenetur quod voluptates minima natus, commodi
+                exercitationem reiciendis nam expedita et autem magni laborum
+                obcaecati quasi vitae ad similique dolores.
               </p>
             </div>
             <div class="col-sm-4 text-center align-middle destaque-texto">
               REDES SOCIAIS
               <p class="destaque align-middle text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, eveniet tenetur quod voluptates minima natus, commodi exercitationem reiciendis nam expedita et autem magni laborum obcaecati quasi vitae ad similique dolores.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
+                eveniet tenetur quod voluptates minima natus, commodi
+                exercitationem reiciendis nam expedita et autem magni laborum
+                obcaecati quasi vitae ad similique dolores.
               </p>
             </div>
             <div class="col-sm-4 text-center align-middle destaque-texto">
               HOSPEDAGEM
               <p class="destaque align-middle text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, eveniet tenetur quod voluptates minima natus, commodi exercitationem reiciendis nam expedita et autem magni laborum obcaecati quasi vitae ad similique dolores.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
+                eveniet tenetur quod voluptates minima natus, commodi
+                exercitationem reiciendis nam expedita et autem magni laborum
+                obcaecati quasi vitae ad similique dolores.
               </p>
             </div>
           </div>
@@ -127,9 +158,34 @@
             </div>
           </div>
         </div>
+        <div class="container-fluid">
+          <form action="">
+            <div class="col-md-12">
+              <label class="form-label">E-mail:</label>
+              <input type="email" class="form-control" name="email" />
+            </div>
+            <div class="col-md-12">
+              <label class="form-label">CEP:</label>
+              <input type="text" class="form-control" name="cep" />
+            </div>
+             <div class="col-md-12">
+              <label class="form-label">Rua:</label>
+              <input type="text" class="form-control" name="rua" />
+            </div>
+            <div class="col-md-12">
+              <label class="form-label">Bairro:</label>
+              <input type="text" class="form-control" name="bairro" />
+            </div>
+            <div class="col-md-12">
+              <label class="form-label">Fale Conosco:</label>
+              <textarea class="form-control" rows="7" name="fale_conosco"></textarea>
+            </div>
+            <div class="col-md-12">
+              <button type="submit" class="btn btn-warning bt-enviar">Enviar</button>
+            </div>
+          </form>
+        </div>
       </section>
-
-
     </main>
 
     <script
